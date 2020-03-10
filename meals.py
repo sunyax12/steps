@@ -3,6 +3,12 @@
 """
 Learn to use argparse module
 https://docs.python.org/zh-cn/3.8/library/argparse.html
+Example:
+    python3 meals.py -h
+    python3 meals.py supper -h
+    python3 steps/meals.py plan -h
+    python3 meals.py lunch make --food rice -f meat
+    python3 meals.py lunch make --food rice meat eggs --drink water juice
 """
 
 
